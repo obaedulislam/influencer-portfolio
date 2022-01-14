@@ -1,0 +1,59 @@
+/** =====|| Common CSS Start ||===== **/
+
+/* ---- Font Start ---- */
+/* Poppins Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap');
+/* Lato Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* ---- Font End ---- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    color: #3A3A3A;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+
+/*
+Color: #0d3a61;
+color: #e02c6d;
+*/
+
+/** =====|| Common CSS End ||===== **/
+
+
+/** =====|| Header CSS Start ||===== **/
+header nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+header nav .navigation ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+header nav .navigation ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+header nav .navigation ul li a:hover{
+    color: #295b86;
+}
+header nav .navigation ul li a i.head-icon{
+    font-size: 25px;
+}
+
+/** =====|| Header CSS End ||===== **/
