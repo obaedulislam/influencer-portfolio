@@ -1,4 +1,6 @@
-/** =====|| Common CSS Start ||===== **/
+/** ==============
+Common CSS Start
+ ============= **/
 
 /* ---- Font Start ---- */
 /* Poppins Font */
@@ -48,15 +50,15 @@ a{
 .review-color{
     color: orange;
 }
-/*
-Color: #0d3a61;
-color: #e02c6d;
-*/
-
-/** =====|| Common CSS End ||===== **/
+/** ==============
+Common CSS End 
+ ============= **/
 
 
-/** =====|| Header CSS Start ||===== **/
+
+/** ==============
+Header CSS Start
+ ============= **/
 header nav{
     justify-content: space-between;
     align-items: center;
@@ -118,7 +120,10 @@ header nav .navigation ul li a i.head-icon{
 .hero-right img{
     width: 80%;
 }
-/** =====|| Header CSS End ||===== **/
+/** ==============
+Header CSS End 
+ ============= **/
+
 
 
 /** ==============
@@ -167,7 +172,6 @@ header nav .navigation ul li a i.head-icon{
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 3px 2px 15px 3px #a8a7a75e;
-    
 }
 .collection-img{
     overflow: hidden; 
@@ -277,7 +281,7 @@ header nav .navigation ul li a i.head-icon{
  Footer CSS Start 
  ============= **/
 footer{
-    padding: 50px 0;
+    padding: 70px 0;
     text-align: center;
     background-color: #0A0826;
 }
@@ -288,9 +292,12 @@ footer h3{
     line-height: 50px;
 }
 footer p{
-    margin: 10px 0;
     font-size: 20px;
+    line-height: 30px;
     color: rgb(211, 205, 236);
+}
+.copy-par{
+    margin-top: 10px;
 }
 footer ul li{
     display: inline-block;
@@ -302,9 +309,9 @@ footer .social-icon{
 footer ul li a{
     background-color: #0d3a61;
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    padding-top: 5px;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
     font-size: 22px;
     color: #fff;
     border: 2px solid #0d3a61;

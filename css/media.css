@@ -1,11 +1,221 @@
 @media only screen and (max-width: 575px) {
+    header nav {
+        padding-top: 15px;
+        height: 80px !important;
+    }
+    header nav .logo a img{
+        width: 70%;
+    }
+    header nav .navigation ul li{
+        margin-left: 15px !important;
+    }
+    header nav .navigation ul li a{
+        font-size: 14px !important;
+    }
+    header nav .navigation ul li a i.head-icon{
+        font-size: 18px !important;
+    }
+
     .single-brand{
         flex-basis: 50%;
     }
+    header nav .navigation{
+        width: 100%;
+    }
+    header nav{
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero{
+        padding: 30px 0;
+        grid-template-columns: 1fr !important;
+        
+    }
+    .hero-left{
+        padding-left: 20px;
+        order: 2;
+        text-align: center;
+        align-content: center !important;
+        align-items: center !important;
+    }
+    .hero-left h1{
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .hero-left p{
+        margin: 0 50px 0 0 !important;
+        line-height: 22px;
+    }
+    .hero-left a{
+        margin-top: 20px;
+    }
+    .hero .hero-right{
+        order: 1;
+    }
+    .hero .hero-right img{
+        width: 60%;
+    }
+/* Header CSS End */
+
+    .brands{
+        padding: 60px 0  10px !important;
+    }
+    .brand-marxs{
+        margin-top: 15px;
+    }
+    .single-brand img{
+        width: 80px !important;
+    }
+/* Brand CSS End */
+
+    .collection{
+        padding: 20px 0 !important;
+    }
+    .all-collection{
+        margin-top: 20px !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 20px !important;
+    }
+    .collection-content{
+        padding: 30px 10px !important;
+    }
+    .collection-content h2{
+        font-size: 24px !important;
+    }
+    .collection-content .single-collection{
+        padding: 10px;
+    }
+    .collection-details h3{
+        margin: 10px 0 0 0 !important;
+        font-size: 22px !important;
+    }
+    .collection-details h4{
+        font-size: 18px !important;
+    }
+    .collection h2{
+        font-size: 34px;
+    }
+/* Collection CSS End */
+
+    .feature-product{
+        padding: 50px 10px 50px !important;
+    }
+    .feature-img{
+        width: 100%;
+        flex-basis: 100% !important;
+    }
+    .feature-img img{
+        width: 100%;
+    }
+    .feature-content{
+        padding-left: 20px !important;
+        flex-basis: 100% !important;
+    }
+    .feature-content h2{
+        font-size: 28px;
+        line-height: 34px;
+    }
+/* Feature CSS End */
+
+    footer{
+        padding: 30px 0 !important;
+    }
+    footer h3{
+        font-size: 22px !important;
+        line-height: 26px !important;
+    }
+    footer p{
+        font-size: 16px !important;
+        line-height: 23px !important;
+    }
+    footer ul li a{
+        width: 40px !important;
+        height: 40px !important;
+        padding-top: 8px !important;
+        font-size: 18px !important;
+    }
+    /* Footer CSS End */
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
     .single-brand{
         flex-basis: 25%;
     }
+    header nav .navigation{
+        width: 100%;
+    }
+    header nav{
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-left{
+        padding-left: 20px;
+    }
+    .hero-left p{
+        margin: 0 50px 0 0 !important;
+        line-height: 20px !important;
+    }
+    .hero-left a{
+        margin-top: 20px;
+    }
+    .hero-left h1{
+        font-size: 42px;
+        line-height: 45px;
+    }
+    /* Header CSS End */
+
+
+    .brands{
+        padding: 20px 0 !important;
+    }
+    .brand-mar{
+        margin-top: 30px;
+    }
+/* Brand CSS End */
+
+    .collection{
+        padding: 50px 0 !important;
+    }
+    .all-collection{
+        gap: 10px !important;
+    }
+    .collection-content .single-collection{
+        padding: 8px;
+    }
+    .collection-details h3{
+        margin: 10px 0 0 0 !important;
+        font-size: 22px !important;
+    }
+    .collection-details h4{
+        font-size: 18px !important;
+    }
+    .collection h2{
+        font-size: 34px;
+    }
+/* Collection CSS End */
+
+    .feature-product{
+        padding: 50px 10px !important;
+    }
+    .feature-img{
+        width: 30%;
+        flex-basis: 30% !important;
+    }
+    .feature-img img{
+        width: 100%;
+    }
+    .feature-content{
+        padding-left: 20px !important;
+        flex-basis: 65% !important;
+    }
+    .feature-content h2{
+        font-size: 28px;
+        line-height: 34px;
+    }
+/* Feature CSS End */
+
+    footer{
+        padding: 50px 0 !important;
+    }
+/* Footer CSS End */
 }
